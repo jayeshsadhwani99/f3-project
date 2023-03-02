@@ -20,6 +20,6 @@ document.getElementById("rzp-button1").onclick = function (e) {
 
   var rzpy1 = new Razorpay(options);
   rzpy1.open();
-  // clear mycart
+  // clear mycart - localStorage
   e.preventDefault();
 };
