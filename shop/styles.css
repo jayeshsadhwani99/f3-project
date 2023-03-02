@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="range"] {
+  width: 75%;
+  height: 2px;
+  margin: 1rem auto;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 75%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main aside {
+  flex: 0.2;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+main main-content {
+  flex: 1;
+}
+
+aside section {
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+
+aside section:last-child {
+  border-bottom: none;
+}
+
+aside section title {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+aside section li {
+  margin-bottom: 0.75rem;
+}
+
+aside section label {
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+main-content {
+  padding: 1rem;
+  position: relative;
+}
+
+main-content input {
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+  font-size: 1rem;
+}
+
+main-content .filters {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+main-content .filter {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+main-content .active {
+  background-color: black;
+  color: white;
+}
+
+main-content section {
+  margin-top: 1.2rem;
+}
+
+main-content section title {
+  display: block;
+  font-size: 1.5rem;
+}
