@@ -1,1 +1,81 @@
-/* Write styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    padding: 20px;
+}
+
+#navbar .left a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navbar .right {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar .right a {
+    text-decoration: none;
+    color: #FFFFFFB2;
+    padding: 7px;
+}
+
+main .heading {
+    font-family: Inter;
+    font-size: 60px;
+    line-height: 97px;
+    padding-left: 40px;
+}
+
+main .text {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+main .login {
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+main .login button {
+    border: 1px solid;
+    background-color: transparent;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+main .login #login {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+main .login #signup {
+    cursor: pointer;
+}
+
+.landingpic img {
+    width: 60%;
+    height: 80%;
+    top: 125px;
+    right: 0;
+    position: absolute;
+}

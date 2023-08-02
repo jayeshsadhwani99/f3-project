@@ -37,7 +37,27 @@
     padding: 7px;
 }
 
-main h1 {
-    text-align: center;
-    margin: 30px;
+main {
+    margin: 10px;
+    padding: 20px;
+}
+
+main p {
+    padding-bottom: 15px;
+    font-size: larger;
+}
+
+main input {
+    width: 98%;
+    margin: 15px 0px;
+    padding: 10px 15px;
+    border: 1px solid;
+}
+
+main button {
+    padding: 10px 0px;
+    width: 12%;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
 }
