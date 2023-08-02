@@ -79,3 +79,7 @@ main .login #signup {
     right: 0;
     position: absolute;
 }
+
+main button a {
+    text-decoration: none;
+}

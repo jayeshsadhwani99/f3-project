@@ -41,3 +41,29 @@ main h1 {
     text-align: center;
     margin: 30px;
 }
+
+.cartItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cartItem .items {
+    margin-right: 105px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+
+.cartItem p {
+    margin-left: 10px;
+}
+
+.cartItem button {
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
