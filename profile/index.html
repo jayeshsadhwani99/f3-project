@@ -2,24 +2,52 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Profile</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <link rel="stylesheet" href="./styles.css" />
+</head>
 
-    <script src="" async defer></script>
-  </body>
+<body>
+    <nav>
+        <p id="nav">Shopping Cart</p>
+    </nav>
+    <form action="">
+        <h1>My Profile</h1>
+        <div class="firstName">
+            <input type="text" id="firstName" placeholder="First Name">
+        </div>
+        <div class="lastName">
+            <input type="text" id="lastName" placeholder="Last Name">
+        </div>
+        <div class="saveButton">
+            <button id="saveButton">Save Info</button>
+        </div>
+        <h1>Edit Password</h1>
+        <div class="oldPassword">
+            <input type="password" id="oldPassword" placeholder="Old Password">
+        </div>
+        <div class="newPassword">
+            <input type="password" id="newPassword" placeholder="New Password">
+        </div>
+        <div class="confirmPassword">
+            <input type="password" id="confirmPassword" placeholder="Confirm New Password">
+        </div>
+        <div class="changePassword">
+            <button id="changePassword">Change Password</button>
+        </div>
+        <div class="logout">
+            <button id="logout">Logout</button>
+        </div>
+    </form>
+
+    <script src=" ./script.js " async defer></script>
+</body>
+
 </html>

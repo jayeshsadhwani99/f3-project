@@ -37,49 +37,27 @@
     padding: 7px;
 }
 
-main .heading {
-    font-family: Inter;
-    font-size: 60px;
-    line-height: 97px;
-    padding-left: 40px;
-}
-
-main .text {
-    font-size: 20px;
-    padding-left: 40px;
-}
-
-main .login {
-    margin-top: 15px;
-    padding-left: 40px;
-}
-
-main .login button {
-    border: 1px solid;
-    background-color: transparent;
-    padding: 5px 20px;
+main {
     margin: 10px;
+    padding: 20px;
 }
 
-main .login #login {
-    background-color: #000000;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
+main p {
+    padding-bottom: 15px;
+    font-size: larger;
 }
 
-main .login #signup {
-    cursor: pointer;
+main input {
+    width: 98%;
+    margin: 15px 0px;
+    padding: 10px 15px;
+    border: 1px solid;
 }
 
-.landingpic img {
-    width: 60%;
-    height: 80%;
-    top: 125px;
-    right: 0;
-    position: absolute;
-}
-
-main button a {
-    text-decoration: none;
+main button {
+    padding: 10px 0px;
+    width: 12%;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
 }

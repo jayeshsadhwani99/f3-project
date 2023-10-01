@@ -1,1 +1,34 @@
-/* Write your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    color: #FFFFFF;
+    background-color: black;
+    padding: 15px;
+}
+
+form h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px 15px;
+    margin: 10px;
+    color: #000000;
+}
+
+form button {
+    padding: 5px 5px;
+    width: 12%;
+    margin: 10px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background: #000000;
+}

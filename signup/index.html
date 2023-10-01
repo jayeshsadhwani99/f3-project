@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>MeShop.</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -36,18 +34,24 @@
         </div>
     </nav>
     <main>
-        <div class="heading">
-            <p>MeShop.</p>
+        <p>Signup</p>
+        <div class="firstName">
+            <input type="text" id="firstName" placeholder="First Name">
         </div>
-        <div class="text">
-            Your First Shop built on HTML, CSS AND JavaScript
+        <div class="lastName">
+            <input type="text" id="lastName" placeholder="Last Name">
         </div>
-        <div class="login">
-            <button value="login" type="button" id="login"><a href="http://127.0.0.1:64964/login/index.html">Login</a></button>
-            <button value="signup" type="button" id="signup"><a href="http://127.0.0.1:64964/signup/index.html">Signup</a></button>
+        <div class="email">
+            <input type="email" id="email" placeholder="Email">
         </div>
-        <div class="landingpic">
-            <img src="./landingPagePic.png" alt="Pic">
+        <div class="password">
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <div class="confirmPassword">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <div class="signupButton">
+            <button id="signup">Signup</button>
         </div>
     </main>
 </body>

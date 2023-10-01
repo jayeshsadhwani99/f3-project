@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    padding: 20px;
+}
+
+#navbar .left a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navbar .right {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar .right a {
+    text-decoration: none;
+    color: #FFFFFFB2;
+    padding: 7px;
+}
+
+main h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.cartItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cartItem .items {
+    margin-right: 105px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+
+.cartItem p {
+    margin-left: 10px;
+}
+
+.cartItem button {
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
